@@ -1,86 +1,46 @@
-# 🎵 MetaTune
+# MetaTune
 
-**MetaTune** is a simple and powerful Python-based tool for extracting metadata (like title and artist) from MP3 files and automatically renaming them accordingly.
+MetaTune is a simple Python tool that reads MP3 metadata and renames your MP3 files to the format:
 
-> 🎧 Perfect for music collectors, DJs, and anyone who wants clean, consistent file names for their music library.
+```
 
----
+Artist - Title.mp3
 
-## ✨ Features
-
-- Extracts MP3 metadata (Title, Artist, Duration, Bitrate)
-- Automatically renames files to match: `Artist - Title.mp3`
-- Prevents overwriting by checking for existing files
-- Sanitizes filenames to remove illegal characters
-- Cool ASCII intro just for fun 😎
-
----
-
-## 🔧 Requirements
-
-- Python 3.6+
-- [`mutagen`](https://mutagen.readthedocs.io/en/latest/) library
-
-Install the required dependency with:
-
-```bash
-pip install mutagen
 ````
 
----
+## Features
 
-## 🚀 Usage
+- Reads and displays MP3 title, artist, duration, and bitrate  
+- Renames files automatically to `Artist - Title.mp3`  
+- Prevents overwrites and sanitizes filenames  
+- Runs easily in the terminal with no complex setup  
 
-1. Place `Main.py` in the folder with your `.mp3` files.
-2. Run the script:
+## Requirements
 
-```bash
-python Main.py
-```
+- Python 3.6 or higher  
+- [mutagen](https://mutagen.readthedocs.io/en/latest/) library (`pip install mutagen`)
 
-3. Enter the name of the MP3 file (without `.mp3`).
-4. MetaTune will display the metadata and rename the file accordingly.
+## Installation & Usage
 
----
+1. Download `MetaTune.py`  
+2. Place it in the same folder as your MP3 files  
+3. Run the script with:
+   ```bash
+   python MetaTune.py
+````
 
-## 📂 Example
+4. Enter the file name (without `.mp3`) when prompted
+5. The script will rename your MP3 file based on its metadata
 
-```
-File name (no .mp3) > my_song
+## Website
 
-Duration: 212.45 seconds  
-Bitrate: 192000 bps  
-Queen - Bohemian Rhapsody  
-Renamed to: Queen - Bohemian Rhapsody.mp3
-```
-
----
-
-## ⚠️ Notes
-
-* Make sure your MP3 files have valid ID3 tags (`Artist` and `Title`) or the script may not work as expected.
-* Avoid using this tool on read-only files or directories where you don't have permission to rename files.
-* Files that already exist with the target name won't be overwritten.
-
----
-Website
 For more info and downloads, visit:
-http://metatune.getenjoyment.net/ 
----
-## 💡 Planned Features
+[http://metatune.getenjoyment.net/](http://metatune.getenjoyment.net/)
 
-* Batch mode for renaming multiple files at once
-* Album art display/download
+## License
 
----
-
-## 📄 License
-
-This project is open-source under the [MIT License](LICENSE).
+This project is licensed under the MIT License.
 
 ---
 
-## 🧠 Credits
-
-Created by **unaccompanied**
-
+*Created by unaccompanied*
