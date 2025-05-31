@@ -31,7 +31,7 @@ pip install mutagen
 
 ## 🚀 Usage
 
-1. Place `Maim.py` in the folder with your `.mp3` files.
+1. Place `Main.py` in the folder with your `.mp3` files.
 2. Run the script:
 
 ```bash
