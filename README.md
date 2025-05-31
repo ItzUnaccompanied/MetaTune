@@ -27,7 +27,7 @@ Artist - Title.mp3
 3. Run the script with:
    ```bash
    python MetaTune.py
-````
+``
 
 4. Enter the file name (without `.mp3`) when prompted
 5. The script will rename your MP3 file based on its metadata
