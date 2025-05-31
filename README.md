@@ -31,11 +31,11 @@ pip install mutagen
 
 ## 🚀 Usage
 
-1. Place `MetaTune.py` in the folder with your `.mp3` files.
+1. Place `Maim.py` in the folder with your `.mp3` files.
 2. Run the script:
 
 ```bash
-python MetaTune.py
+python Main.py
 ```
 
 3. Enter the name of the MP3 file (without `.mp3`).
